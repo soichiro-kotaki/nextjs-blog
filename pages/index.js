@@ -14,14 +14,15 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
 
         <p>
-            こんにちは🙇‍♂️　　　現在大学3年生のこたです！
-            <br>将来エンジニアを目指してプログラミング学習をしています💻
-            </br>
+            こんにちは🙇‍♂️
+            <br></br><br></br>
+            現在大学3年生のこたです！<br></br>
+            将来エンジニアを目指してプログラミング学習をしています！<br></br>
+            <br></br>
             主な使用技術スタック：Javascript / React / React Native / Typescript / Next.js / Firebase / Figma
         </p>
-
         <p>
-          こんにちは
+          <a href='https://twitter.com/kotakin_js'>Twitterはこちらから</a>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
