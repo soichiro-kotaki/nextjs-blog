@@ -13,13 +13,19 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
 
-        <p>こた</p>
+        <p>
+            こんにちは🙇‍♂️　　　現在大学3年生のこたです！
+            <br>将来エンジニアを目指してプログラミング学習をしています💻
+            </br>
+            主な使用技術スタック：Javascript / React / React Native / Typescript / Next.js / Firebase / Figma
+        </p>
+
         <p>
           こんにちは
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>投稿記事一覧</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
